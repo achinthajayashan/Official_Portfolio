@@ -108,6 +108,7 @@ header{
 
 #homeSec>article>h3{
     font-weight: 400;
+    margin-bottom: 40px;
 }
 
 #homeSec>article>h1{
@@ -127,5 +128,58 @@ header{
 #homeSec>article>h1:nth-child(3)>span{
     color: black;
 }
+
+#homeSec>article>p{
+    width: 60%;
+    line-height: 27px;
+}
+
+#homeSec>article>h5{
+    margin-top: 50px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+#socialIconSet{
+    display: flex;
+}
+
+#socialIconSet>div{
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow:  5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    border-radius: 5px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: margin-top;
+    transition-duration: 0.8s;
+    margin-bottom: 80px;
+
+}
+
+#socialIconSet>div>i{
+    background-color: transparent;
+}
+
+#socialIconSet>div:hover{
+    background: linear-gradient(145deg, #ff014f, #d11414);
+    color: white;
+    margin-top: -3px;
+    transition-property: margin-top;
+    transition-duration: 0.8s;
+}
+
+
+
+
+
+
+
+
+
 
 
