@@ -5,6 +5,16 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+#upperSec{
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 25px;
+    background-color: #ff014f;
+    display: none;
+}
+
 header{
     height: 7vh;
     width: 100vw;
@@ -19,7 +29,7 @@ header{
     width: 500px;
     height: 60px;
     display: flex;
-    margin-left: 100px;
+    margin-left: 10vw;
     margin-top: 20px;
 }
 
@@ -43,9 +53,10 @@ header{
     display: flex;
     justify-content: end;
     align-items: baseline;
-    width: 57%;
+    width: 55%;
     height: 100%;
     margin-top: 25px;
+    margin-right: 10%;
 
 }
 
