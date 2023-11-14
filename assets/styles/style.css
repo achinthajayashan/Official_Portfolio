@@ -1,0 +1,14 @@
+*{
+    background-color: #e2e8ec;
+}
+
+header{
+    height: 7vh;
+    width: 100vw;
+    /*box-shadow:  20px 20px 60px #c0c5c9,*/
+    /*-20px -20px 60px #ffffff;*/
+}
+
+#headerPicNormal{
+    width: 50px;
+}
