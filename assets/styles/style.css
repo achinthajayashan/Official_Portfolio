@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 *{
     background-color: #e2e8ec;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header{
@@ -9,6 +12,25 @@ header{
     /*-20px -20px 60px #ffffff;*/
 }
 
-#headerPicNormal{
-    width: 50px;
+#headerDivOfImg{
+    width: 500px;
+    height: 60px;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
 }
+
+#headerDivOfImg>div{
+    margin-left: 10px;
+    line-height: 10px;
+}
+
+#headerDivOfImg>div>h2{
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+#headerDivOfImg>div>h5{
+    margin-top: 12px;
+}
+
