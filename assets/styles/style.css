@@ -8,6 +8,7 @@
 header{
     height: 7vh;
     width: 100vw;
+    display: flex;
     /*box-shadow:  20px 20px 60px #c0c5c9,*/
     /*-20px -20px 60px #ffffff;*/
 }
@@ -32,5 +33,28 @@ header{
 
 #headerDivOfImg>div>h5{
     margin-top: 12px;
+}
+
+#navList{
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+    width: 57%;
+    height: 100%;
+    margin-top: 20px;
+
+}
+#navList>nav>ul{
+    display: flex;
+    list-style: none;
+    width: fit-content;
+}
+
+#navList>nav>ul li{
+    margin-left: 40px;
+}
+#navList>nav>ul li>a{
+    text-decoration: none;
+    color: black;
 }
 
