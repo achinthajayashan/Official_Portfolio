@@ -43,7 +43,7 @@ header{
     align-items: baseline;
     width: 57%;
     height: 100%;
-    margin-top: 20px;
+    margin-top: 25px;
 
 }
 
@@ -73,14 +73,16 @@ header{
     margin-left: 40px;
     border-radius: 5px;
     color: #ff014f;
+    transition-duration: 0.8s;
+    transition-property: margin-top;
 }
 
 #navList>nav>button:hover{
 
     background: linear-gradient(145deg, #ff014f, #d11414);;
     color: white;
-    margin-top: -5px;
-    transition-duration: 1s;
+    margin-top: -3px;
+    transition-duration: 0.8s;
     transition-property: margin-top;
 
 }
