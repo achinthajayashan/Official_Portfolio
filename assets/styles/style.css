@@ -184,6 +184,42 @@ header{
     transition-duration: 0.8s;
 }
 
+#homeSec>aside{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#bigImgDiv{
+    margin-right: 10vw;
+    margin-top: -80px;
+    width:70%;
+    height: 70%;
+    /*background: linear-gradient(145deg, #e2e8ec, #ffffff);*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*box-shadow:  5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;*/
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#bigImgDiv>div{
+    width: 90%;
+    height: 90%;
+    background-image: url("../images/myImageNew.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow:  5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+
+
+
+}
 
 
 
