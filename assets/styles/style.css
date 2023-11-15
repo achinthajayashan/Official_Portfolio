@@ -232,6 +232,88 @@ header{
 
 }
 
+#aboutSec{
+    width: 100vw;
+    height: 100vh;
+}
+
+.textHeadSec{
+    margin-left: 10vw;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
+.textHeadSec>h1{
+    font-weight: 400;
+}
+
+.textHeadSec>h5{
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #ff014f;
+}
+
+#aboutSec>article:nth-child(2){
+    width: 100%;
+    display: flex;
+    /*background-color: #ff014f;*/
+}
+#aboutSec article:nth-child(2)>article{
+    width: 40%;
+    /*width: 80%;*/
+    margin-left: 10vw;
+    line-height: 30px;
+    text-align: justify;
+}
+
+#aboutSec article:nth-child(2)>article>h3{
+    font-weight: 400;
+    /*text-decoration: underline;*/
+    color: #ff014f;
+}
+
+
+#aboutSec article:nth-child(2)>aside{
+    width: 40%;
+    margin-left: 10vw;
+}
+
+#aboutSec article:nth-child(2)>aside>h3{
+    font-weight: 400;
+    /*text-decoration: underline;*/
+    color: #ff014f;
+
+}
+
+#aboutSec article:nth-child(2)>aside>div{
+    font-weight: 400;
+    /*text-decoration: underline;*/
+    box-shadow:  5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    width: 70%;
+    height: 80px;
+    border-radius: 5px;
+
+}
+
+#aboutSec article:nth-child(2)>aside>div h4{
+    padding-top: 20px;
+    margin-left: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+
+}
+
+
+#aboutSec article:nth-child(2)>aside>div p{
+    margin-top: 0;
+    /*padding-top: 20px;*/
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 14px;
+
+}
 
 
 
