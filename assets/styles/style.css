@@ -10,12 +10,23 @@
     position: fixed;
     top: 0;
     width: 100vw;
-    height: 25px;
+    height: 20px;
     background-color: #ff014f;
-    display: none;
+    /*display: none;*/
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+#upperSec>a{
+    text-decoration: none;
+    color: white;
 }
 
 header{
+    padding-top: 10px;
     height: 7vh;
     width: 100vw;
     display: flex;
@@ -215,7 +226,7 @@ header{
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-    box-shadow:  5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    box-shadow:  5px 30px 30px #D1D9E6, 5px 0px 30px #e2e8ec;
 
 
 
