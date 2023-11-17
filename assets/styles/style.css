@@ -234,7 +234,7 @@ header{
 
 #aboutSec{
     width: 100vw;
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 .textHeadSec{
@@ -272,6 +272,7 @@ header{
     font-weight: 400;
     /*text-decoration: underline;*/
     color: #ff014f;
+    letter-spacing: 5px;
 }
 
 
@@ -284,6 +285,7 @@ header{
     font-weight: 400;
     /*text-decoration: underline;*/
     color: #ff014f;
+    letter-spacing: 5px;
 
 }
 
@@ -315,6 +317,52 @@ header{
 
 }
 
+#certificateSec{
+    width: 100vw;
+}
+
+#certificateSec>h3{
+    margin-top: 30px;
+    font-weight: 400;
+    color: #ff014f;
+    margin-left: 10vw;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+}
+
+#certicateGrid{
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /*grid-template-rows: repeat(3,1fr);*/
+    grid-gap: 20px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.certificate{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    /*border: 2px solid black;*/
+    box-shadow:  5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    border-radius: 5px;
+}
+
+.certificate>h4{
+    background-color: transparent;
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 0;
+
+}
+
+.certificate>p{
+    text-align: center;
+    color: dimgrey;
+    background-color: transparent;
+}
 
 
 
