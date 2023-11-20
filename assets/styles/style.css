@@ -11,7 +11,7 @@
     top: 0;
     width: 100vw;
     height: 20px;
-    background-color: #ff014f;
+    background: linear-gradient(145deg, #ff014f, #d11414);;
     /*display: none;*/
     font-size: 12px;
     text-align: center;
@@ -399,6 +399,8 @@ header{
     flex-direction: column;
     align-items: start;
     border-radius: 10px;
+    transition: 1s;
+    transition-property: margin-top;
 
 }
 
@@ -449,6 +451,19 @@ header{
     /*opacity: 90%;*/
 }
 
+
+.serviceDiv:hover{
+    background: linear-gradient(145deg, #ff014f, #d11414);
+    color: #e2e8ec;
+    margin-top: -10px;
+    transition: 1s;
+    transition-property: margin-top;
+
+}
+
+.serviceDiv:hover .iconBG{
+    box-shadow: none;
+}
 
 
 
