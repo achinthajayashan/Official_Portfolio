@@ -340,6 +340,8 @@ header{
     margin-right: 10vw;
 }
 
+
+
 .certificate{
     width: 100%;
     height: 300px;
@@ -348,6 +350,7 @@ header{
     box-shadow:  5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
     border-radius: 5px;
 }
+
 
 .certificate>h4{
     background-color: transparent;
@@ -364,6 +367,87 @@ header{
     background-color: transparent;
 }
 
+
+#serviceSec{
+    width: 100vw;
+    margin-top: 15vh;
+}
+
+#serviceSec>.textHeadSec>h3{
+    color: #ff014f;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+
+#services{
+    margin-top: 50px;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /*grid-template-rows: repeat(3,1fr);*/
+    grid-gap: 30px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.serviceDiv{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow:  5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 10px;
+
+}
+
+.serviceDivIn{
+    margin-left: 30px;
+    font-weight: 400;
+    background-color: transparent;
+    line-height: 22px;
+    text-align: justify;
+    margin-right: 30px;
+}
+
+.iconDiv{
+    font-size: 40px;
+    /*margin-top: 20px;*/
+    color: #e2e8ec;
+    color: #ff014f;
+    rotate: -45deg;
+}
+
+.headLine{
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 20px;
+    margin-top: 30px;
+    /*color: #ff014f;*/
+}
+
+.serviceDes{
+    font-size: 14px;
+    /*color: #ff014f;*/
+}
+
+.iconBG{
+    width: 17%;
+    height: 25%;
+    background-color: #ff014f;
+    background-color: black;
+    /*background: linear-gradient(145deg, #ff014f, #d11414);*/
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow:  5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    rotate: 45deg;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    /*opacity: 90%;*/
+}
 
 
 
