@@ -535,6 +535,15 @@ header{
     color: #e2e8ec;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #e2e8ec;
+    height: 10vh;
+}
+
 
 
 
