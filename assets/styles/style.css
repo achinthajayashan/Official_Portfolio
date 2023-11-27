@@ -485,6 +485,7 @@ header{
     grid-gap: 30px;
     margin-left: 10vw;
     margin-right: 10vw;
+    margin-top: 30px;
 }
 
 .project{
@@ -535,6 +536,105 @@ header{
     color: #e2e8ec;
 }
 
+#contactSec{
+    width: 100%;
+    margin-top: 10%;
+}
+
+#contactSec>article:nth-child(2){
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    /*background-color: #ff014f;*/
+}
+
+#contactSec article:nth-child(2)>article{
+    width: 40%;
+    /*width: 80%;*/
+    margin-left: 10vw;
+    line-height: 30px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#contactSec article:nth-child(2)>aside{
+    width: 40%;
+    margin-left: 10vw;
+}
+
+.conElement{
+    width: 80%;
+    height: 100px;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow:  5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    display: flex;
+    border-radius: 10px;
+}
+
+.conElement>aside{
+    display: flex;
+    width: 20%;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: #ff014f;
+}
+
+.conElement>article{
+    background-color: transparent;
+    margin-left: 20px;
+}
+
+.conElement>article>h4,h3{
+    background-color: transparent;
+    font-weight: 400;
+}
+
+.conElement>article>h3{
+    margin-top: 0;
+}
+
+.conElement>article>h4{
+    margin-bottom: 0;
+    color: dimgrey;
+}
+
+
+
+form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input , textarea , button{
+    padding: 20px;
+
+    border-radius: 10px;
+}
+
+form button{
+    background: linear-gradient(145deg, #ff014f, #d11414);
+    color: #e2e8ec;
+    cursor: pointer;
+}
+
+form input ,textarea{
+    /*border-color: #ff014f;*/
+    border: none;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow:  5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+}
+
+form input , textarea :focus{
+    border-color: #ff014f;
+}
+
 footer{
     display: flex;
     justify-content: center;
@@ -543,6 +643,7 @@ footer{
     background-color: #e2e8ec;
     height: 10vh;
 }
+
 
 
 
