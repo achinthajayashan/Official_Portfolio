@@ -622,6 +622,7 @@ form button{
     background: linear-gradient(145deg, #ff014f, #d11414);
     color: #e2e8ec;
     cursor: pointer;
+    border: none;
 }
 
 form input ,textarea{
